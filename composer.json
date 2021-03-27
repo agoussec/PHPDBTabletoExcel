@@ -9,6 +9,9 @@
             "email": "agoussec@gmail.com"
         }
     ],
+    "require": {
+        "monolog/monolog": "^1.23"
+    },
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {"agoussec\\": "src/"}
