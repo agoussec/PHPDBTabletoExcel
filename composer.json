@@ -2,7 +2,7 @@
     "name": "agoussec/phpdbtabletoexcel",
     "description": "Create Excel sheet directly from database table rows",
     "type": "composer-plugin",
-    "license": "cc",
+    "license": "GNU",
     "authors": [
         {
             "name": "shamsh parvez",
