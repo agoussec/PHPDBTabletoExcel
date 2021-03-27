@@ -5,7 +5,7 @@ namespace agoussec\class;
  * Export to Excel sheet directly from MySql table
  *
  * @author  https://github.com/agoussec
- * @license MIT (or other licence)
+ * @license GNU GENERAL PUBLIC LICENSE
  */
 
 class Export {
