@@ -65,8 +65,7 @@ if (isset($_REQUEST["export"])) {
             left JOIN table2 ON table2.id = table1.table2id
             left JOIN table3 ON table3.id = table1.table3id 
             WHERE table1.status = 1";
-           
-                    
+
     $export->setQuery($sql);
 
     /********************************************************************************************************|
@@ -89,7 +88,7 @@ if (isset($_REQUEST["export"])) {
 
 
 
-    
+
 
     /********************************************************************************************************|
     *                              EXPLANATION - FILENAME [OPTIONAL]                                         |
@@ -144,5 +143,8 @@ if (isset($_REQUEST["export"])) {
     * 
     */
     $export->setTimestamp(true);
+
+    // $export->setData($data);
+
     $export->getFile();
 }
