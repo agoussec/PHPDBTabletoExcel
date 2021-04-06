@@ -84,9 +84,14 @@ $export->setFilename('setFilename');
 $export->setHeaderRow(true);  
 ```
 
-#### Time Stamp
+#### Time Stamp (optional)
 ```
 $export->setTimestamp(true);
+```
+
+#### And at last get the Excel file -
+```
+$export->getFile();
 ```
  
 
